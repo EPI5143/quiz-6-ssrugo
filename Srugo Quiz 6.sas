@@ -2,6 +2,8 @@
 EPI5143 Winter 2020 Quiz 6.
 Due Tuesday March 31st at 11:59PM via Github (link will be provided)
 
+Sebastian Srugo (8900077)
+
 Using the Nencounter table from the class data:
 a) How many patients had at least 1 inpatient encounter that started in 2003?
 b) How many patients had at least 1 emergency room encounter that started in 2003? 
@@ -87,6 +89,7 @@ proc freq data=out.output2;
 	tables tot; 
 run;
 
+/*
 tot	Frequency	Percent	Cumulative Frequency	Cumulative Percent
 1	2556		88.41	2556					88.41
 2	270			9.34	2826					97.75
@@ -96,3 +99,4 @@ tot	Frequency	Percent	Cumulative Frequency	Cumulative Percent
 6	1			0.03	2889					99.93
 7	1			0.03	2890					99.97
 12	1			0.03	2891					100.00
+*/
